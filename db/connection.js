@@ -6,7 +6,7 @@ const db = mysql2.createConnection(
      
      user: 'root',
      password: 'root123',
-     database: 'employee_tracker'
+     database: 'employees_tracker'
     },
     console.log('Connected to the employee tracking database.')
 );
